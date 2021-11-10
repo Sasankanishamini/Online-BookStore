@@ -1,0 +1,255 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+   	background-color: rgba(246, 244, 250, 0.966);
+   
+}
+h3 a {
+	color: #FFF;
+}
+
+a {
+	color: #FFF;
+}
+
+
+#container {
+	margin: 0 auto;
+	padding: auto;
+}
+
+p {
+	text-align: center;
+}
+
+nav {
+	 margin:0;
+	/* margin: auto;*/
+	padding: 100px;
+	background-color: black;
+	
+}
+
+nav ul {
+	padding: 0;
+ 	margin: 0;
+	list-style: none;
+	position: relative;
+	}
+	
+nav ul li {
+	display:inline-block;
+	background-color:black;
+	}
+
+nav a {
+	display:block;
+	padding:0 10px;
+	color:#FFF;
+	font-size:17px;
+	line-height: 60px;
+	text-decoration:none;
+}
+/*#adsize img:hover{
+  backface-visibility: hidden;
+}*/
+.adhover a:hover{
+  background-color: #434542;
+}
+
+/* Hide Dropdowns by Default */
+nav ul ul {
+	display: none;
+	position: absolute; 
+	top: 60px; /* the height of the main nav */
+}
+	
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+	display:inherit;
+	z-index: 999;
+}
+	
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+	width:470px;
+	float:none;
+	display:list-item;
+	position: relative;
+}
+.adsearchBox:hover > .adsearchInput {
+    width: 240px;
+    padding: 0 6px;
+}
+
+.adsearchBox:hover > .adsearchButton {
+  background:black;
+  color :white;
+}
+
+.adsearchButton {
+    color: white;
+    float: right;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #1d1e1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 50s;
+}
+
+.adsearchInput {
+    border:none;
+    background:rgb(35, 35, 35);
+    outline:none;
+    float:left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+
+}
+
+@media screen and (max-width: 620px) {
+.adsearchBox:hover > .adsearchInput {
+    width: 100px;
+   	padding: 0 6px;
+}
+}
+
+
+
+/*--------------common body styles------------------------*/
+
+.pages-journey{
+  text-align: left;
+  color: darkslategray;
+  font-style: bold;
+  margin-left: 30px;
+}
+
+.pages-category-title{
+  color: #434542;
+  font-style: italic;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.pages-journey a{
+  color: #434542;
+  text-decoration: none;
+}	
+
+.pages-journey a:hover{
+  color: #1d1e1e;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------Footer----------------------*/
+.container{
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.row-ft{
+  display: flex;
+  align-items: center;
+}
+.footer{
+  background-color: rgb(49, 49, 49);
+  margin-top: 0px;
+}
+
+.footer a{
+  text-decoration: none;
+}
+
+.footer ul{
+  list-style-type: none;
+}
+
+.footer-col1, .footer-col2, .footer-col3, .footer-col4{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+}
+
+.footer-col1{
+  flex-basis: 20%;
+}
+
+.footer-col2{
+  flex-basis: 20%;
+  text-align: left;
+}
+
+.footer-col3{
+  flex:20% ;
+  display: inline-block;
+}
+
+.footer-col4{
+  flex-basis: 40%;
+
+}
+
+.footer a, .footer p{
+  color: white;
+}
+
+.footer hr{
+  border: none;
+  height: 2px;
+  margin: 20px 0 5px 0;
+  background-color: rgb(121, 121, 121);
+}
+
+.last-ele{
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.last-ele img{
+  float: right;
+  padding-left: 900px;
+}
+
+.last-ele p{
+  font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  

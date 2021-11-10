@@ -1,0 +1,152 @@
+
+#form_crAcc{
+  display:inline-block;
+  text-align:left;
+  padding:30px;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+#h_backgraundimage{
+  background-image: url("../Images/book\ background.jpg");
+  background-size: 1600px 1300px;
+  padding: 20px;
+
+}
+
+#h_title{
+  
+   font-family:Calibri;
+
+  }
+
+
+.acolor1 {
+	  color:rgb(241, 8, 8);
+}
+.acolor2:hover{
+	  color:rgb(185, 12, 12);
+}
+.acolor3:active{ 
+    color:rgb(107, 5, 5);
+}
+
+ #h_fname {
+  
+  width:500px;
+  height:50px ;
+  background:rgb(235, 231, 226);
+  margin-top: 5px;
+  font-size: 16px;
+ 
+}
+ #h_lname {
+ 
+  width:500px;
+  height:50px ;
+  background:rgb(235, 231, 226);
+  margin-top: 5px;
+  font-size: 16px;
+ 
+}
+#h_dob{
+  width:500px;
+  height:50px ;
+  background:rgb(235, 231, 226);
+  margin-top: 5px;
+  font-size: 16px;
+}
+ #h_emailAdd{
+  
+  width:500px;
+  height:50px ;
+  background:rgb(235, 231, 226);
+  margin-top: 5px;
+  font-size: 16px;
+}
+#h_gender{
+
+  margin-top: 5px;
+
+}
+#h_num{
+ 
+  width:500px;
+  height:50px ;
+  background:rgb(235, 231, 226);
+  margin-top: 5px;
+  font-size: 16px;
+
+}
+#h_addr{
+ 
+  border: 2px solid;
+  width:500px;
+  height:120px ;
+  background:rgb(235, 231, 226);
+  margin-top: 5px;
+  font-size: 16px;
+}
+#h_pwd
+{
+  
+  width:500px;
+  height:50px ;
+  background:rgb(235, 231, 226);
+  margin-top: 5px;
+  font-size: 16px;
+}
+#h_rpwd
+{
+  
+  width:500px;
+  height:50px ;
+  background:rgb(235, 231, 226);
+  margin-top: 5px;
+  font-size: 16px;
+}
+#h_btn1{
+
+  background-color: black;
+  color: white;
+  padding: 13px 220px;
+  border-radius: 2px;
+  transition: 0.5s;
+  font-size: 16px;
+  margin-top: 5px;
+  font-size: 16px;
+  
+}
+
+
+#h_btn1:hover{
+
+  background-color:rgb(43, 45, 42) ;
+  cursor: pointer;
+  
+}
+form label{
+ 
+  font-size:l6px ;
+  font-weight: bold;
+  font-family:Calibri ;
+
+}
+#h_btn2{
+  background-color: black;
+  color: white;
+  padding: 13px 217px;
+  border-radius: 2px;
+  transition: 0.5s;
+  font-size: 16px;
+  margin-top: 5px;
+  font-size: 16px;
+
+}
+#h_btn2:hover{
+
+  background-color:rgb(43, 45, 42) ;
+  cursor: pointer;
+  
+}
+
